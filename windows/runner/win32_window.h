@@ -13,9 +13,9 @@
 class Win32Window {
  public:
   struct Point {
-    unsigned int x;
-    unsigned int y;
-    Point(unsigned int x, unsigned int y) : x(x), y(y) {}
+    LONG x;
+    LONG y;
+    Point(LONG x, LONG y) : x(x), y(y) {}
   };
 
   struct Size {
